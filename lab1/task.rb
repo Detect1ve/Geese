@@ -70,5 +70,16 @@ def degree_conversion
 	puts result
 end
 
+def palindrome_definition
+	puts 'Input the word'
+	word = gets.chomp
+	if (word == word.reverse)
+		puts 'This is a palindrome'
+	else
+		puts 'This is not a palindrome'
+	end
+end
+
 hello
-degree_conversion
+#degree_conversion
+palindrome_definition
